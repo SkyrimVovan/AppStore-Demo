@@ -9,12 +9,18 @@
 /* Begin PBXBuildFile section */
 		FA55195D2B687D2A00CE86BA /* AppStore_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55195C2B687D2A00CE86BA /* AppStore_DemoApp.swift */; };
 		FA55195F2B687D2A00CE86BA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55195E2B687D2A00CE86BA /* ContentView.swift */; };
-		FA5519612B687D2A00CE86BA /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5519602B687D2A00CE86BA /* Item.swift */; };
 		FA5519632B687D2B00CE86BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5519622B687D2B00CE86BA /* Assets.xcassets */; };
 		FA5519672B687D2B00CE86BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA5519662B687D2B00CE86BA /* Preview Assets.xcassets */; };
 		FA5519712B687D2B00CE86BA /* AppStore_DemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5519702B687D2B00CE86BA /* AppStore_DemoTests.swift */; };
 		FA55197B2B687D2B00CE86BA /* AppStore_DemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55197A2B687D2B00CE86BA /* AppStore_DemoUITests.swift */; };
 		FA55197D2B687D2B00CE86BA /* AppStore_DemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55197C2B687D2B00CE86BA /* AppStore_DemoUITestsLaunchTests.swift */; };
+		FA55198A2B68807700CE86BA /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5519892B68807700CE86BA /* Constants.swift */; };
+		FA55198D2B68814F00CE86BA /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55198C2B68814F00CE86BA /* TabBarView.swift */; };
+		FA5519922B68829600CE86BA /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5519912B68829600CE86BA /* TodayView.swift */; };
+		FA5519982B6886CE00CE86BA /* AppsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5519972B6886CE00CE86BA /* AppsView.swift */; };
+		FA55199B2B6888C500CE86BA /* UserDefault.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55199A2B6888C500CE86BA /* UserDefault.swift */; };
+		FA55199E2B6888FD00CE86BA /* UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA55199D2B6888FD00CE86BA /* UserSettings.swift */; };
+		FA5519A12B6889D900CE86BA /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA5519A02B6889D900CE86BA /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +44,6 @@
 		FA5519592B687D2A00CE86BA /* AppStore-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AppStore-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA55195C2B687D2A00CE86BA /* AppStore_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore_DemoApp.swift; sourceTree = "<group>"; };
 		FA55195E2B687D2A00CE86BA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FA5519602B687D2A00CE86BA /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		FA5519622B687D2B00CE86BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA5519642B687D2B00CE86BA /* AppStore_Demo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppStore_Demo.entitlements; sourceTree = "<group>"; };
 		FA5519662B687D2B00CE86BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -47,6 +52,13 @@
 		FA5519762B687D2B00CE86BA /* AppStore-DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "AppStore-DemoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA55197A2B687D2B00CE86BA /* AppStore_DemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore_DemoUITests.swift; sourceTree = "<group>"; };
 		FA55197C2B687D2B00CE86BA /* AppStore_DemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStore_DemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		FA5519892B68807700CE86BA /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FA55198C2B68814F00CE86BA /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		FA5519912B68829600CE86BA /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		FA5519972B6886CE00CE86BA /* AppsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsView.swift; sourceTree = "<group>"; };
+		FA55199A2B6888C500CE86BA /* UserDefault.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefault.swift; sourceTree = "<group>"; };
+		FA55199D2B6888FD00CE86BA /* UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserSettings.swift; sourceTree = "<group>"; };
+		FA5519A02B6889D900CE86BA /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +86,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA26538E2BB0467700395891 /* Reusable */ = {
+			isa = PBXGroup;
+			children = (
+				FA26538F2BB0468D00395891 /* Views */,
+			);
+			path = Reusable;
+			sourceTree = "<group>";
+		};
+		FA26538F2BB0468D00395891 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		FA5519502B687D2A00CE86BA = {
 			isa = PBXGroup;
 			children = (
@@ -98,8 +125,10 @@
 			isa = PBXGroup;
 			children = (
 				FA55195C2B687D2A00CE86BA /* AppStore_DemoApp.swift */,
-				FA55195E2B687D2A00CE86BA /* ContentView.swift */,
-				FA5519602B687D2A00CE86BA /* Item.swift */,
+				FA55199C2B6888EA00CE86BA /* Application */,
+				FA55198B2B68812800CE86BA /* Presentation */,
+				FA26538E2BB0467700395891 /* Reusable */,
+				FA5519992B68889600CE86BA /* Utility */,
 				FA5519622B687D2B00CE86BA /* Assets.xcassets */,
 				FA5519642B687D2B00CE86BA /* AppStore_Demo.entitlements */,
 				FA5519652B687D2B00CE86BA /* Preview Content */,
@@ -130,6 +159,99 @@
 				FA55197C2B687D2B00CE86BA /* AppStore_DemoUITestsLaunchTests.swift */,
 			);
 			path = "AppStore-DemoUITests";
+			sourceTree = "<group>";
+		};
+		FA55198B2B68812800CE86BA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				FA5519902B68827A00CE86BA /* 0. ContentView */,
+				FA55198F2B68825F00CE86BA /* 1. TabBar */,
+				FA55198E2B68825200CE86BA /* 2. Today */,
+				FA5519932B68868800CE86BA /* 3. Games */,
+				FA5519942B68869D00CE86BA /* 4. Apps */,
+				FA5519952B6886A900CE86BA /* 5. Arcade */,
+				FA5519962B6886B400CE86BA /* 6. Search */,
+				FA55199F2B6889CB00CE86BA /* 7. Onboarding */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FA55198E2B68825200CE86BA /* 2. Today */ = {
+			isa = PBXGroup;
+			children = (
+				FA5519912B68829600CE86BA /* TodayView.swift */,
+			);
+			path = "2. Today";
+			sourceTree = "<group>";
+		};
+		FA55198F2B68825F00CE86BA /* 1. TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				FA55198C2B68814F00CE86BA /* TabBarView.swift */,
+			);
+			path = "1. TabBar";
+			sourceTree = "<group>";
+		};
+		FA5519902B68827A00CE86BA /* 0. ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				FA55195E2B687D2A00CE86BA /* ContentView.swift */,
+			);
+			path = "0. ContentView";
+			sourceTree = "<group>";
+		};
+		FA5519932B68868800CE86BA /* 3. Games */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "3. Games";
+			sourceTree = "<group>";
+		};
+		FA5519942B68869D00CE86BA /* 4. Apps */ = {
+			isa = PBXGroup;
+			children = (
+				FA5519972B6886CE00CE86BA /* AppsView.swift */,
+			);
+			path = "4. Apps";
+			sourceTree = "<group>";
+		};
+		FA5519952B6886A900CE86BA /* 5. Arcade */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "5. Arcade";
+			sourceTree = "<group>";
+		};
+		FA5519962B6886B400CE86BA /* 6. Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "6. Search";
+			sourceTree = "<group>";
+		};
+		FA5519992B68889600CE86BA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				FA55199A2B6888C500CE86BA /* UserDefault.swift */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		FA55199C2B6888EA00CE86BA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FA5519892B68807700CE86BA /* Constants.swift */,
+				FA55199D2B6888FD00CE86BA /* UserSettings.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FA55199F2B6889CB00CE86BA /* 7. Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FA5519A02B6889D900CE86BA /* OnboardingView.swift */,
+			);
+			path = "7. Onboarding";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,8 +385,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA55195F2B687D2A00CE86BA /* ContentView.swift in Sources */,
-				FA5519612B687D2A00CE86BA /* Item.swift in Sources */,
+				FA55199B2B6888C500CE86BA /* UserDefault.swift in Sources */,
 				FA55195D2B687D2A00CE86BA /* AppStore_DemoApp.swift in Sources */,
+				FA5519A12B6889D900CE86BA /* OnboardingView.swift in Sources */,
+				FA55198D2B68814F00CE86BA /* TabBarView.swift in Sources */,
+				FA5519922B68829600CE86BA /* TodayView.swift in Sources */,
+				FA55199E2B6888FD00CE86BA /* UserSettings.swift in Sources */,
+				FA5519982B6886CE00CE86BA /* AppsView.swift in Sources */,
+				FA55198A2B68807700CE86BA /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
